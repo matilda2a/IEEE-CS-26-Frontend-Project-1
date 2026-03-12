@@ -233,9 +233,143 @@
         </a>
 
       </div>
+    </div>
+  </section>
+
+
+  <div id="Part-2"></div>
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <!-- column 1 -->
+      <div class="footer-about">
+
+        <h3>Who Are Live and Learn Consultancy?</h3>
+
+        <p>
+          One of the leading national training providers in the UK who deliver
+          powerful soft skills training courses at your workplace.
+        </p>
+
+        <div class="footer-rating">
+
+          <div class="trustpilot-row">
+            <i class="fa-solid fa-star trust-star"></i>
+            <span>Trustpilot</span>
+          </div>
+
+          <div class="stars">
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <p class="trust-score">TrustScore 4.9 | 212 reviews</p>
+
+        </div>
+
+
+        <div class="social-icons">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+
+      </div>
+
+
+      <!-- column 2 -->
+      <div class="footer-links">
+        <h4>What We Offer</h4>
+
+        <a href="#">In-House Training</a>
+        <a href="#">Public Open Courses</a>
+        <a href="#">Bespoke Course Design</a>
+        <a href="#">Sheffield Training Room</a>
+      </div>
+
+
+      <!-- column 3 -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+
+        <a href="#">About Us</a>
+        <a href="#">Our Clients</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Free Training Resources</a>
+        <a href="#">Download Course Brochure</a>
+      </div>
+
+
+      <!-- column 4 -->
+      <div class="footer-links">
+        <h4>Training Categories</h4>
+
+        <a href="#">Communication</a>
+        <a href="#">Customer Service</a>
+        <a href="#">HR Skills</a>
+        <a href="#">Leadership</a>
+        <a href="#">Sales Skills</a>
+        <a href="#">Well-Being</a>
+      </div>
+
+
+      <!-- column 5 -->
+      <div class="footer-contact">
+
+        <h4>Find Us</h4>
+
+        <p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Lorem Ipsum</span>
+        </p>
+
+        <p>
+        <i class="fa-solid fa-phone"></i>
+        <span>
+        Phone
+        <br>
+        0123 4567890
+        </span>
+        </p>
+
+        <p>
+        <i class="fa-solid fa-envelope"></i>
+        <span>
+        Email
+        <br>
+        lorem@gmail.com
+        </span>
+        </p>
+
+      </div>
 
     </div>
 
-  </section>
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2025 Live And Learn Consultancy
+        <span>Website designed by Twilo Creative</span>
+      </p>
+
+    </div>
+
+  </footer>
   </body>
 </html>
+
+<script>
+fetch("section2.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("Part-2").innerHTML = data;
+  });
+</script>
