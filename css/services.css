@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.services {
+    width: 100%;
+    max-width: 1920px;
+    top: 2781px;
+    padding-top: 120px;
+    padding-right: 240px;
+    padding-bottom: 120px;
+    padding-left: 240px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.header {
+    
+    max-width: 1194px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 12px;
+    margin:0 auto; 
+    text-align: center;
+}
+.header h2{
+    height: auto;
+}
+.header p{
+    height: auto;
+}
+
+
+.services-container {
+    height: 870px;
+    width: 1440px;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.services-container > div{
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    width: 336px;
+    height: 310px;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #ffffff;
+    box-shadow: 0px 2px 20px 16px #AEAEAE33;
+    text-align: left;
+}
+.card div{
+    width: 288px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+}
+.layout{
+    width: 288px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+
+}
+.layout h3{
+    width: 288px;
+    height: 25px;
+
+}
+.layout p{
+    width: 288px;
+    height: 84px;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+
+}
+.card a {
+    color: #c2185b;
+    text-decoration: none;
+    margin-top: auto;
+}
+.view-all {
+    width: 205px;
+    height: 60px;
+    background: #c2185b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px auto 0; 
+    cursor: pointer;
+ }
+
+.view-all img{
+    width: 24px;
+    height: 24px;
+}
