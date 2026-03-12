@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1920px;
     height: 732px;
-    background-color: #2d3748; /* Dark navy-gray background */
+    background-color: #2B3847;
     color: white;
     margin-bottom: 30px;
 }
@@ -15,7 +15,7 @@
     gap: 60px;
     align-items: center;
 }
-.content{
+.clients .content{
     width: 581px;
     height: 436px;
     display: flex;
@@ -23,27 +23,28 @@
     justify-content: center;
 }
 
-
-.clients-content h1 {
-    margin-bottom: 2rem;
-    line-height: 1.1;
+.clients .content span{
+    font-family: var(--heading-font);
 }
 
-.clients-content p {
+.clients .content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.clients .content p{
     color: #cbd5e0;
     line-height: 1.7;
-    margin-bottom: 1.5rem;
-
+    margin-bottom: 16px;
 }
 
-
-.logo-grid {
+.clients .logo-grid {
     display: flex;
     gap: 20px;
-
 }
 
-.col-1,.col-3 {
+.clients .col-1,.col-3 {
     width: 213px;
     height: 678px;
     padding-top: 10px;
@@ -53,42 +54,102 @@
 
 }
 
-
-
-.col-2 {
+.clients .col-2 {
     width: 213px;
     height: 820px;
     display: flex;
     flex-direction: column;
     gap: 32px;
-
 }
 
-.logo{
+.clients .logo{
     width: 213px;
     height: 110px;
     background: white;
-    border-radius: 8px;
-
-    
+    border-radius: 8px; 
 }
-.btn{
-    width: 282px;
-    height: 60px;
-    display: flex;
+
+.clients .btn{
+    display: inline-flex;
     align-items: center;
-    background-color: #ff7a00;
+    text-align: center;
+    gap: 12px;
+    width: 282px;
+    padding: 16px 28px;
+    background: #FE7503;
     color: white;
     border-radius: 8px;
-    margin-top: 15px;
-    padding: 5px;
+    border: none;
+    cursor: pointer;
     text-decoration: none;
 }
-.btn img{
+
+.clients .btn img{
     width: 24px;
     height: 24px;
     margin-left: 10px;
-
 }
 
 
+@media (max-width:600px){
+
+.clients .col-2 .logo:last-child{
+    display:none;
+}
+
+.clients{
+    height:auto;
+    padding:60px 20px;
+}
+
+.clients-container{
+    grid-template-columns:1fr;
+    gap:40px;
+    text-align:center;
+}
+
+.clients .content{
+    width:100%;
+    height:auto;
+    text-align:left;
+}
+
+.clients h1{
+    font-size:32px;
+    line-height:1.2;
+}
+
+.clients p{
+    font-size:14px;
+}
+
+.clients .btn{
+    margin:20px 0;
+}
+
+.clients .logo-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+}
+
+.clients .col-1,
+.clients .col-2,
+.clients .col-3{
+    display:contents;
+}
+
+.clients .logo{
+    width:100%;
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.clients .logo img{
+    max-width:70%;
+    height:auto;
+}
+
+}

@@ -1,72 +1,55 @@
-.contact {
-    width: 1440px;
-    height: 264px;
-    border-radius: 8px;
-    padding: 48px;
-    background-color: #fdf5e6; 
-    padding: 80px 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+.contact{
+width:100%;
+display:flex;
+justify-content:center;
+padding:80px 20px;
 }
 
-.contact-container {
-    width: 779px;
-    height: 168px;
-    gap: 32px;
-
-}
-.contact div{
-    width: 779px;
-    height: 76px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-
-}
-.contact div h2 {
-    width: 779px;
-    height: 40px;
-
+.contact-container{
+max-width:1200px;
+width:100%;
+background:#fdf5e6;
+border-radius:8px;
+padding:48px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:24px;
+text-align:center;
 }
 
-.contact div p {
-    width: 779px;
-    height: 24px;
-  
-
+.contact h2{
+font-size:28px;
 }
 
-
-.email-btn {
-    width: 269px;
-    height: 60px;
-    padding-top: 18px;
-    padding-right: 24px;
-    padding-bottom: 18px;
-    padding-left: 24px;
-    border-radius: 8px;
-    background-color: #ff7f0e; 
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-
+.contact p{
+color:#555;
 }
 
+.email-btn{
+display:flex;
+align-items:center;
+gap:10px;
+padding:16px 28px;
+border:none;
+border-radius:8px;
+background:#ff7f0e;
+color:white;
+cursor:pointer;
+}
 
-.email-btn img {
-    width: 24px;
-    height: 24px;
+.email-btn img{
+width:22px;
+}
 
+@media (max-width:600px){
+
+.contact-container{
+padding:32px 20px;
+}
+
+.contact h2{
+font-size:22px;
+}
 
 }
