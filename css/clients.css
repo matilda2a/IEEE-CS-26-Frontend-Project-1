@@ -1,0 +1,94 @@
+.clients {
+    width: 100%;
+    max-width: 1920px;
+    height: 732px;
+    background-color: #2d3748; /* Dark navy-gray background */
+    color: white;
+    margin-bottom: 30px;
+}
+
+.clients-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 60px;
+    align-items: center;
+}
+.content{
+    width: 581px;
+    height: 436px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+
+
+.clients-content h1 {
+    margin-bottom: 2rem;
+    line-height: 1.1;
+}
+
+.clients-content p {
+    color: #cbd5e0;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+
+}
+
+
+.logo-grid {
+    display: flex;
+    gap: 20px;
+
+}
+
+.col-1,.col-3 {
+    width: 213px;
+    height: 678px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+
+
+.col-2 {
+    width: 213px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.logo{
+    width: 213px;
+    height: 110px;
+    background: white;
+    border-radius: 8px;
+
+    
+}
+.btn{
+    width: 282px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #ff7a00;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+.btn img{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+
+}
+
+

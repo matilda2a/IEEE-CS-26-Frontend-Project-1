@@ -1,0 +1,72 @@
+.contact {
+    width: 1440px;
+    height: 264px;
+    border-radius: 8px;
+    padding: 48px;
+    background-color: #fdf5e6; 
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    width: 779px;
+    height: 168px;
+    gap: 32px;
+
+}
+.contact div{
+    width: 779px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+.contact div h2 {
+    width: 779px;
+    height: 40px;
+
+}
+
+.contact div p {
+    width: 779px;
+    height: 24px;
+  
+
+}
+
+
+.email-btn {
+    width: 269px;
+    height: 60px;
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    border-radius: 8px;
+    background-color: #ff7f0e; 
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+
+.email-btn img {
+    width: 24px;
+    height: 24px;
+
+
+}
