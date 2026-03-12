@@ -44,14 +44,12 @@
     font-weight:600;
 }
 
-.services-container {
-    width: 100%;
-    max-width: 1440px;
-    display: flex;
-    gap: 64px;
-    justify-content: center;
-    flex-direction: column;
-
+.services-container{
+    width:100%;
+    max-width:1440px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
 }
 .services-container > div{
     display: flex;
@@ -60,35 +58,41 @@
 
 .services-grid{
     width:100%;
+    max-width:1440px;
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns:repeat(4,1fr);
     gap:32px;
 }
 
 .services .card {
-    width: 100%;
-    max-width: 336px;
-    height: 310px;
-    border-radius: 8px;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background: #ffffff;
-    box-shadow: 0px 2px 20px 16px #AEAEAE33;
-    text-align: left;
+    width:100%;
+    height:310px;
+    border-radius:8px;
+    padding:24px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    background:#ffffff;
+    box-shadow:0px 2px 20px 16px #AEAEAE33;
 }
+
 .services .card div{
-    width: 288px;
+    width:100%;
     height: 262px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     text-align: left;
 }
 .layout{
-    width: 288px;
+    width:100%;
     height: 206px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
     display: flex;
     flex-direction: column;
     gap: 12px;
